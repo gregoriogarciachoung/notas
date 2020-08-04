@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="shortcut icon" href="nota.png">
+	<link rel="stylesheet" href="style.css">
+    <title>Audioperspectiva</title>
+</head>
+	<body>
+		<header>
+			<h1><a href="./">Notas</a></h1>
+		</header>
+		<nav>
+			<ul>
+				<li>Intervalos Melódicos</li>
+				<li><a href="#">Fragmentos Rítmicos</a></li>
+				<li><a href="#">Notas Musicales</a></li>
+			</ul>		
+		</nav>
+		<main>
+			<h3>Intervalos Melódicos</h3>
+			<section>
+				<div class="flex-wrap hc">
+					<button class="play">NUEVO</button>
+					<button class="play">REPETIR</button>
+					<button class="play">MELODÍA</button>
+					<button class="play">RESPUESTA</button>
+				</div>
+				<div class="flex-wrap hc btn2">
+					<button onclick="verificar(21)">2da menor</button>
+					<button onclick="verificar(22)">2da mayor</button>
+					<button onclick="verificar(31)">3ra menor</button>
+					<button onclick="verificar(32)">3ra mayor</button>
+					<button onclick="verificar(40)">4ta justa</button>
+					<button onclick="verificar(50)">5ta justa</button>
+					<button onclick="verificar(80)">8va</button>
+				</div>
+			</section>
+			<section>
+			<p>La distancia que hay entre dos o más notas se llama intervalo. Los intervalos se construyen de tonos y semitonos (dos semitonos = un tono). En piano; dos teclas juntas es un semitono, separadas por una es un tono.</p>
+			<h4>Nombre de intervalos</h4>
+			<div class="flex-wrap">
+				<ul class="click">
+				<li onclick="verintervalo(21)"><a>2da menor: un semitono<a></li>
+				<li onclick="verintervalo(22)"><a>2da mayor: un tono<a></li>
+				<li onclick="verintervalo(31)"><a>3ra menor: un tono + uno semitono<a></li>
+				<li onclick="verintervalo(32)"><a>3ra mayor: dos tonos<a></li>
+				<li onclick="verintervalo(40)"><a>4ta justa: dos tonos + un semitono<a></li>
+				<li onclick="verintervalo(50)"><a>5ta justa: tres tonos + un semitono<a></li>
+				<li onclick="verintervalo(80)"><a>8va: seis tonos<a></li>
+				</ul>
+				<div style="display:none;"id="sss">		
+				<span style="cursor:pointer;font-size:30px;position:fixed;top:0;left:0">X</span>
+				<canvas  width="108" height="63" style="width:300px; height:150px;position:fixed;top:0;left:1.5em"></canvas>
+				</div>
+			</div>
+			</section>
+		</main>
+		<footer>
+			<h5>© Notas 2020<h5>
+		</footer>
+	</body>
+	<script async src="script.js"></script>
+	<script async src="intervalos.js"></script>
+</html>
