@@ -1,0 +1,11 @@
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="33" width="12" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 12 32.999998" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<defs>
+<symbol id="a">
+<title>note 4</title>
+<path d="m20.538 0v55.936c-2.8168-2.4709-8.2854-2.8232-13.119-0.7812-5.93 2.505-8.6563 7.6636-6.8847 11.857 1.7715 4.1937 7.3706 5.8351 13.301 3.3301 5.6522-2.3875 9.5529-7.6786 8.373-11.801v-58.105z"/>
+</symbol>
+</defs>
+<g transform="translate(0 -1019.4)">
+<use xlink:href="#a" transform="matrix(.45931 0 0 .43505 .50370 1021)" height="100%" width="100%" y="0" x="0"/>
+</g>
+</svg>
